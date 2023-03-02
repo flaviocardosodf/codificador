@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Chalenge Alura</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/Vector.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section class="input">
+            <textarea name="" class="textarea" cols="40" rows="12" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="legend">
+                <img src="assets/img/symbol.png" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">
+                <button class="cript" onclick="btnEncriptar()">Criptografar</button>
+                <button class="descript" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="output">
+            <textarea class="mensage" cols="15" rows="3" placeholder="nenhuma mensagem encontrada."></textarea>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button class="copy">Copiar</button>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  background: #E5E5E5;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  padding: 40px;
+}
+
+header {
+  display: inline-flex;
+}
+
+main {
+  display: flex;
+}
+
+.input {
+  width: 67.5%;
+}
+
+.input textarea {
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 48px;
+  color: #0A3871;
+  border: none;
+  text-transform: lowercase;
+  margin: .25em 6em;
+  background: transparent;
+}
+
+.input textarea:focus {
+  outline: none;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+}
+
+.legend p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.buttons {
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+  margin-top: 8px;
+}
+
+ button {
+  font-size: 18px;
+  padding: 12px 36px;
+  border-radius: 24px;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+}
+
+.cript {
+  background: #0A3871;
+  color: #FFFFFF;
+  border: 1px solid #0A3871;
+  transition: all .4s;
+}
+
+.cript:hover, .descript:hover, .copy:hover {
+  font-weight: 700;
+}
+
+.descript, .copy {
+  background: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+}
+
+.output {
+  width: 27.5%;
+  background: #FFFFFF;
+  background-image: url(../img/High\ quality\ products\ 1\ 1.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.output textarea {
+  margin-top: 450px;
+  padding: 0 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  border: 0;
+  color: #343A40;
+  outline: none;
+}
+
+.output p {
+  margin: 1em 0;
+  padding: 0 32px;
+}
